@@ -1,0 +1,33 @@
+{
+  "name": "filebeam",
+  "version": "1.0.0",
+  "description": "Fast local network file sharing between your Mac and any device on the same Wi‑Fi",
+  "main": "server.js",
+  "bin": {
+    "filebeam": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dha-aa/filebeam.git"
+  },
+  "keywords": [
+    "file-sharing",
+    "local-network",
+    "wifi",
+    "upload",
+    "download"
+  ],
+  "author": "dha-aa",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
