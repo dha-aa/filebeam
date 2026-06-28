@@ -12,8 +12,8 @@ const UI = require("./ui");
 
 const DEFAULT_PORT = 3000;
 const MAX_SCAN_DEPTH = 3;
-const MAX_FILE_SIZE = 500 * 1024 * 1024;
-const MAX_FILES = 100;
+const MAX_FILE_SIZE = 1024 * 1024 * 1024 * 1024;
+const MAX_FILES = 1000;
 const STREAM_HIGH_WATER_MARK = 16 * 1024 * 1024;
 
 const ALLOWED_EXTENSIONS = new Set([
